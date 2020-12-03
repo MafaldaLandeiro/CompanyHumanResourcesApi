@@ -1,0 +1,19 @@
+type HumanResource {
+    id: ID!
+    name: String!
+    age: Int!
+    category: String
+    salary: Float
+    companyId:  ID!
+}
+
+# The Root Query for the application
+type Query {
+    getHumanResourceByName(name:String!): HumanResource
+    getAllHumanResources: [HumanResource]
+}
+
+# The Root Mutation for the application
+type Mutation {
+    addHumanResource(name: String!, age: Int!, category: String, salary: Float, companyId: ID!) : HumanResource
+}
