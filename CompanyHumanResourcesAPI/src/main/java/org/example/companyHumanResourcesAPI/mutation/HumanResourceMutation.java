@@ -1,6 +1,6 @@
 package org.example.companyHumanResourcesAPI.mutation;
 
-import graphql.kickstart.tools.GraphQLMutationResolver;
+import com.coxautodev.graphql.tools.GraphQLMutationResolver;
 import org.example.companyHumanResourcesAPI.dao.CompanyDAO;
 import org.example.companyHumanResourcesAPI.dao.HumanResourceDAO;
 import org.example.companyHumanResourcesAPI.domain.Company;

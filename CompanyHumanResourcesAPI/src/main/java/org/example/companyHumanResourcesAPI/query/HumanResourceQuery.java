@@ -1,6 +1,6 @@
 package org.example.companyHumanResourcesAPI.query;
 
-import graphql.kickstart.tools.GraphQLQueryResolver;
+import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.example.companyHumanResourcesAPI.dao.HumanResourceDAO;
 import org.example.companyHumanResourcesAPI.domain.HumanResource;
 
